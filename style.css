@@ -1,0 +1,44 @@
+body {
+    font-family: 'Gulzar', serif;
+
+}
+
+.donate-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 8px 50px;
+    font-weight: 700;
+    border-radius: 15px;
+
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.full-width {
+    color: lightskyblue;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.font-color {
+    color: lightsteelblue;
+}
+
+.color-of-help {
+    color: lightblue;
+}
+
+.first-portion {
+    background-image: url(images/donation8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
