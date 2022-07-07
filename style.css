@@ -88,5 +88,36 @@ p {
 
 .line-height {
     line-height: 20px;
+}
+
+#blur {
     color: #BDC3C7;
+}
+
+#food {
+    background-color: #ABEBC6;
+    width: 25%;
+    border: 1px solid #F4F6F6;
+    margin: 6px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+#shelter {
+    background-color: khaki;
+    width: 25%;
+    border: 1px solid #F4F6F6;
+    margin: 6px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#education {
+    background-color: lightsteelblue;
+    width: 25%;
+    border: 1px solid #F4F6F6;
+    margin: 6px;
+    padding: 5px;
+    border-radius: 5px;
 }
