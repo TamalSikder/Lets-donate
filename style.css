@@ -3,7 +3,7 @@ body {
 
 }
 
-.donate-button {
+.donate-button-a {
     text-decoration: none;
     text-align: center;
     background-image: linear-gradient(orange, tomato);
@@ -11,6 +11,30 @@ body {
     font-weight: 700;
     border-radius: 15px;
 
+}
+
+.hrtag {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.other-amount {
+    margin-bottom: 10px;
+}
+
+.line-height {
+    line-height: 28px;
+}
+
+.donate-button-b {
+    text-decoration: none;
+    text-align: center;
+    background-image: linear-gradient(orange, tomato);
+    padding: 8px 50px;
+    font-weight: 700;
+    border-radius: 15px;
+    margin-top: 45px;
 }
 
 h1 {
@@ -27,16 +51,19 @@ p {
 }
 
 
-.full-width {
-    color: white;
+.top-portion {
+    color: wheat;
     width: 100%;
     text-align: center;
     padding-bottom: 4%;
     padding-top: 4%;
+    margin-top: -30px;
 }
 
 .font-color {
-    color: black;
+    margin-top: -30px;
+    font-size: 15px;
+    color: white;
 }
 
 .first-portion {
@@ -49,7 +76,7 @@ p {
 }
 
 #second-portion {
-    line-height: 20px;
+    line-height: 38px;
     text-align: center;
     padding: 10px;
     margin-top: 15px;
@@ -68,12 +95,12 @@ p {
 
 .donation-amount-section {
     width: 130px;
-    height: 130px;
+    height: 100px;
     border: 1px solid #F4F6F6;
     background-color: #EDE7F6;
     text-align: center;
     margin: 6px;
-    padding: 5px;
+    padding-top: 20px;
     border-radius: 5px;
 }
 
@@ -83,15 +110,7 @@ p {
     color: red;
 }
 
-.hrtag {
-    text-align: center;
-    margin-left: 20%;
-    margin-right: 20%;
-}
 
-.line-height {
-    line-height: 20px;
-}
 
 #blur {
     color: #BDC3C7;
@@ -145,4 +164,46 @@ p {
 
 .half-width img {
     width: 100%;
+}
+
+.input-mail {
+    width: 50%;
+    height: 80px;
+    border: 1px solid #F4F6F6;
+    background-color: #FDEBD0;
+    margin-left: 24%;
+    margin-right: 20%;
+    padding: 5px;
+    text-align: center;
+}
+
+.margin-mail {
+    margin-top: 2.8%;
+}
+
+.subscribe {
+    background-color: orangered;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+#be-humble {
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    color: darksalmon;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#small-text {
+    font-size: 12px;
 }
