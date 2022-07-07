@@ -5,6 +5,7 @@ body {
 
 .donate-button {
     text-decoration: none;
+    text-align: center;
     background-image: linear-gradient(orange, tomato);
     padding: 8px 50px;
     font-weight: 700;
@@ -22,7 +23,7 @@ h2 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 
@@ -35,7 +36,7 @@ p {
 }
 
 .font-color {
-    color: #F1C40F;
+    color: black;
 }
 
 .first-portion {
@@ -43,6 +44,8 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    text-align: center;
+    padding-bottom: 25px;
 }
 
 #second-portion {
@@ -120,4 +123,26 @@ p {
     margin: 6px;
     padding: 5px;
     border-radius: 5px;
+}
+
+.half-width-a {
+    margin-top: 6%;
+    margin-right: 3%;
+    margin-left: 10%;
+    width: 50%;
+}
+
+.line-height-a {
+    line-height: 28px;
+}
+
+.half-width-b {
+    margin-top: 6%;
+    margin-right: 10%;
+    margin-left: 3%;
+    width: 50%;
+}
+
+.half-width img {
+    width: 100%;
 }
